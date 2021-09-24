@@ -15,7 +15,7 @@ terraform-alicloud-influxdb
 
 ```hcl
 module "example" {
-  source         = "terraform-alicloud-modules/eip-slb-ecs-redis-rds/alicloud"
+  source         = "terraform-alicloud-modules/influxdb/alicloud"
   instance_alias = "tf-instance_alias"
 }
 ```

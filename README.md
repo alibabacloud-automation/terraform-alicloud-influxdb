@@ -15,7 +15,7 @@ These types of resources are supported:
 
 ```hcl
 module "example" {
-  source         = "terraform-alicloud-modules/eip-slb-ecs-redis-rds/alicloud"
+  source         = "terraform-alicloud-modules/influxdb/alicloud"
   instance_alias = "tf-instance_alias"
 }
 ```
@@ -43,7 +43,7 @@ module "example" {
 If you have any problems when using this module, please opening
 a [provider issue](https://github.com/aliyun/terraform-provider-alicloud/issues/new) and let us know.
 
-**Note:** There does not recommend to open an issue on this repo.
+**Note:** There does not recommend opening an issue on this repo.
 
 ## Authors
 
